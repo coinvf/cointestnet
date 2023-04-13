@@ -57,7 +57,7 @@
     "node-fetch": "^3.2",
     "plausible-tracker": "^0.3",
     "postcss": "^8.4",
-    "postcss-cli": "^10.0",
+    "postcss-cli": "^10.1",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3",
     "stylelint": "^14.9",
