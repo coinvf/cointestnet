@@ -117,12 +117,12 @@ $font-size-lg:                $font-size-base * 1.25;
 $font-size-md:                $font-size-base * 1.125;
 $font-size-sm:                $font-size-base * 0.875;
 
-// $line-height-base:            1.5;
-
 $headings-font-family:        null;
 $headings-font-weight:        700;
 
 $lead-font-weight:            400;
+
+$font-weight-bold:            500;
 
 // Spacing
 //
@@ -135,13 +135,21 @@ $spacer: 1rem;
 // Navbar
 
 $navbar-padding-y:                  $spacer / 2;
-$navbar-padding-x:                  null;
+$navbar-padding-x:                  0;
 
 $navbar-nav-link-padding-x:         0.5rem;
 
 $navbar-light-color:                $black;
 $navbar-light-hover-color:          $primary;
 $navbar-light-active-color:         $primary;
+
+// Modal
+$modal-backdrop-bg:                 $black;
+$modal-backdrop-opacity:            0.5;
+
+// Offcanvas
+$offcanvas-horizontal-width:        300px;
+$offcanvas-backdrop-bg:             $modal-backdrop-bg;
 
 // Cards
 
@@ -158,9 +166,9 @@ $alert-border-radius:               0;
 $alert-link-font-weight:            $headings-font-weight;
 $alert-border-width:                0;
 
-$alert-bg-scale:                    0;
-$alert-border-scale:                0;
-$alert-color-scale:                 0;
+$alert-bg-level:                    0;
+$alert-border-level:                0;
+$alert-color-level:                 0;
 
 // docsearch
 $dropdown-config: (

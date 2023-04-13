@@ -1,42 +1,51 @@
 .home .card,
-.contributors.list .card,
-.blog.list .card,
-.blog.single .card,
-.categories.list .card,
-.tags.list .card {
+.blog .card,
+.newsletter .card,
+.contributors.list .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: transform 0.3s;
 }
 
+.home .section-featured .card {
+  margin: 0;
+}
+
+.showcase.list .card,
+.types.list .card,
+.functionalities.list .card {
+  transition: transform 0.3s;
+}
+
 .home .card:hover,
+.blog .card:hover,
+.newsletter .card:hover,
 .contributors.list .card:hover,
-.blog.list .card:hover,
-.blog.single .card:hover,
-.categories.list .card:hover,
-.tags.list .card:hover {
+.showcase.list .card:hover,
+.types.list .card:hover,
+.functionalities.list .card:hover {
   transform: scale(1.025);
 }
 
-.contributors.list .card.card-terms:hover,
-.categories.list .card.card-terms:hover,
-.tags.list .card.card-terms:hover {
-  transform: none;
-}
-
 .home .card-body,
-.contributors.list .card-body,
-.blog.list .card-body,
-.blog.single .card-body,
-.categories.list .card-body,
-.tags.list .card-body {
+.blog .card-body,
+.newsletter .card-body,
+.contributors.list .card-body {
   padding: 0 2rem 1rem;
 }
 
-.contributors.list .card-terms .card-body,
-.categories.list .card-terms .card-body,
-.tags.list .card-terms .card-body {
+.home .section-featured .card-body {
   padding: 1rem;
+}
+
+.home .section-featured .card-title {
+  font-size: $font-size-base;
+  font-weight: normal;
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-md;
+  }
 }
 
 .blog-header {
@@ -48,10 +57,6 @@
   text-align: center;
 }
 
-.related-posts {
-  margin-top: 4rem;
-}
-
-h2.section-title {
-  margin-bottom: 1.25rem;
+.types-single {
+  margin-right: 0.75rem;
 }

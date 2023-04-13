@@ -200,6 +200,8 @@
           "@id": {{ print .Permalink "#/schema/image/2" }},
           "url": {{ $.Scratch.Get "primaryImage" }},
           "contentUrl": {{ $.Scratch.Get "primaryImage" }},
+          "width": {{ .Site.Params.schemaImageWidth }},
+          "height": {{ .Site.Params.schemaImageHeight }},
           "caption": "{{ .Title }}"
         }
       ]

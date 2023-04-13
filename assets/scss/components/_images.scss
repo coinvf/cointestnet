@@ -1,19 +1,5 @@
 figure {
-  margin: 0 0 1rem;
-  display: inline-block;
-}
-
-figure img {
-  margin-bottom: 0.5rem;
-  line-height: 1;
-  max-width: 100%;
-  height: auto;
-}
-
-figure figcaption {
-  margin: 0.25rem 0 0.75rem;
-  font-size: 0.875em;
-  color: #6c757d;
+  margin: 0;
 }
 
 .figure-caption {
@@ -59,4 +45,9 @@ figure.wide .figure-caption {
 .img-simple {
   margin-top: 0.375rem;
   margin-bottom: 1.25rem;
+}
+
+.logos {
+  filter: grayscale(100%);
+  opacity: 0.4;
 }

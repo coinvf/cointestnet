@@ -28,7 +28,7 @@ pre code {
 }
 
 .hljs {
-  padding: 1.5rem !important;
+  padding: 1.25rem 1.5rem;
 }
 
 @include media-breakpoint-down(sm) {
@@ -59,8 +59,4 @@ pre code:hover {
 
 pre code::-webkit-scrollbar-thumb:hover {
   background: $gray-500;
-}
-
-code.language-mermaid {
-  background: none;
 }

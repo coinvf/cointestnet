@@ -9,6 +9,15 @@
 
 .anchor {
   visibility: hidden;
+  padding-left: 0.5rem;
+}
+
+.showcase-meta {
+  margin-top: 2rem;
+}
+
+.showcase-meta a {
+  color: $body-color;
 }
 
 h1:hover a,
@@ -19,33 +28,22 @@ h4:hover a {
   text-decoration: none;
 }
 
+.showcase-meta a:hover,
+.showcase-meta a:focus {
+  color: $primary;
+}
+
 .card-list {
   margin-top: 2.25rem;
 }
 
-.page-footer-meta {
+.edit-page {
   margin-top: 3rem;
+  font-size: $font-size-base;
 }
 
-.edit-page,
-.last-modified {
-  font-size: $font-size-sm;
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-@include media-breakpoint-up(md) {
-  .edit-page,
-  .last-modified {
-    font-size: $font-size-base;
-    margin-top: 0.75rem;
-    margin-bottom: 0.25rem;
-  }
-}
-
-.edit-page svg,
-.last-modified svg {
-  margin-right: 0.25rem;
+.edit-page svg {
+  margin-right: 0.5rem;
   margin-bottom: 0.25rem;
 }
 
@@ -54,11 +52,45 @@ p.meta {
   font-size: $font-size-base;
 }
 
-.breadcrumb {
-  margin-top: 2.25rem;
-  font-size: $font-size-base;
+.docs-toc-ad {
+  margin: 1.5rem 0;
 }
 
-.page-link:hover {
-  text-decoration: none;
+/*
+.view-website {
+  padding-left: 0.46875rem;
+  padding-right: 0.46875rem;
+}
+*/
+
+.netlify-link {
+  margin-top: 0.03125rem;
+  margin-bottom: 0.03125rem;
+}
+
+.algolia-link {
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+}
+
+.browserstack-link {
+  margin-top: -0.03125rem;
+  margin-bottom: -0.03125rem;
+}
+
+.protocol-labs-link {
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
+}
+
+.showcase.list h2:not(.offcanvas-title) {
+  margin: 3rem 0 2rem;
+}
+
+.showcase.list h2.heading-pinned {
+  margin: 2rem 0;
+}
+
+.section-open-collective {
+  padding: 5rem 0;
 }
